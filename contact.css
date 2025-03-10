@@ -1,0 +1,102 @@
+body {
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e0dbef;
+    padding: 20px;
+    margin: 10px;
+    }
+  
+    .project-name {
+      font-size: 24px;
+      font-weight: 600;
+      color: #9986b3;
+    }
+  
+  
+  /* 헤더 영역*/
+    .header {
+      display: flex;
+      justify-content: space-between;
+      background-color: whitesmoke;
+      height: 72px;
+      align-items: center;
+      padding: 0 40px;
+  
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  main{
+    margin-top: 72px;
+  }
+    .nav-menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .nav-list {
+      display: inline;
+      font-size: 16px;
+    }
+  
+    #nav-contact {
+      color: black;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+  
+      border-radius: 10px;
+      border: 1px solid #e0dbef;
+    }
+  #nav-contact:hover {
+    background-color: #d4cdec;
+    transition: all 0.5s ease-in;
+  }
+  
+  #nav-contact:active {
+    background-color: #c3b7e7;
+    transition: all 0.5s ease-in;
+  }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /*메인영역*/
+
+    .profile-img{
+      width: 320px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .container{
+      max-width: 1320px;
+      margin: 0 auto;
+      display: flex;
+      gap: 20px;
+      padding: 80px 0;
+    }
+
+    .sub-heading {
+      font-size: 14px;
+      color: grey;
+      padding-bottom: 8px;
+    }
+
+    .text {
+      font-size: 24px;
+      padding-bottom: 24px;
+    }
+
+    .sns:hover{
+      font-weight: 600;
+      color: #9986b3;
+    }
